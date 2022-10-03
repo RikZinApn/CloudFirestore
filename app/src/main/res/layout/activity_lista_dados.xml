@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:text="LISTAGEM DE DADOS"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/edtPesquisa"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:hint="ID:" />
+
+    <Button
+        android:id="@+id/btnBusca"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Buscar" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:text="INFORMAÇÕES:"
+        android:textAlignment="center"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/txtResultId"
+        android:editable="false"
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="sans-serif"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/txtResultNome"
+        android:layout_width="350dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:editable="false"
+        android:fontFamily="sans-serif"
+        android:hint="Nome:"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/txtResultEnd"
+        android:layout_width="350dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:hint="Endereco"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/txtResultBairro"
+        android:layout_width="350dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:hint="Bairro"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/txtResultCep"
+        android:layout_width="350dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:hint="CEP"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btnEditar"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Atualizar" />
+
+    <Button
+        android:id="@+id/btnExcluir"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Excluir" />
+
+    <Button
+        android:id="@+id/btnInicio"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="INICIO" />
+
+</LinearLayout>

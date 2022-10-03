@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "946560211342",
+    "project_id": "atividadefirestore",
+    "storage_bucket": "atividadefirestore.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:946560211342:android:b3531802d45763673d2cdf",
+        "android_client_info": {
+          "package_name": "com.example.provafiresotre"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "946560211342-vrajo9bun8902i2c7q0qi44leipej782.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcHC_MuVGew2LNCBh0GgXjK1ljhm8Fa7A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "946560211342-vrajo9bun8902i2c7q0qi44leipej782.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
